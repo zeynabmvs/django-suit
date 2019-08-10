@@ -1,0 +1,11 @@
+@font-face{
+    font-family: Samim;
+    src: url('../fonts/Samim-Bold-FD.woff');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Samim;
+    src: url('../fonts/Samim-FD.woff');
+    font-weight: normal;
+}
