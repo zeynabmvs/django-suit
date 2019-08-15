@@ -3,6 +3,12 @@
 
 {% block stylesheet %}{% static "suit/css/suit.css" %}{% endblock %}
 
+
+{% block extrahead %}
+    {{ block.super }}
+    {{ form.media.css }}
+{% endblock %}
+
 {% block extrastyle %}
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
     <link href='{% static "suit/css/font-awesome.min.css" %}' rel='stylesheet' type='text/css'>
@@ -11,7 +17,11 @@
     <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" />
 {% endblock %}
 
-{% block bodyclass %}{{ block.super|suit_body_class:request }}{% endblock %}
+{% block bodyclass %}
+    {{ block.super|suit_body_class:request }}
+    {{ form.media.js }}
+
+{% endblock %}
 
 {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
 
