@@ -19,3 +19,7 @@ input,button,select,textarea{
 #content-main {
     float: none !important;
 }
+
+body.change-list #content-main .object-tools {
+    float: left;
+}
