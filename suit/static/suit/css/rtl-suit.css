@@ -23,3 +23,11 @@ input,button,select,textarea{
 body.change-list #content-main .object-tools {
     float: left;
 }
+
+body.suit_layout_horizontal #header #branding {
+    padding-right: 1.875rem;
+}
+
+body.suit_layout_horizontal #header #user-tools {
+    text-align: left;
+}
