@@ -1,17 +1,18 @@
 /*customize rtl styles of suit package*/
 
-
-body{
+body {
     font-family: Samim !important;
     font-size: 12px;
     direction: rtl;
     text-align: right;
 }
-input,button,select,textarea{
+
+input, button, select, textarea {
     font-family: Samim !important;
     font-size: 12px;
 }
-.redactor_editor, .redactor_editor:focus, .redactor_editor div, .redactor_editor p, .redactor_editor ul, .redactor_editor ol, .redactor_editor table, .redactor_editor dl, .redactor_editor blockquote, .redactor_editor pre, .redactor_editor h1, .redactor_editor h2, .redactor_editor h3, .redactor_editor h4, .redactor_editor h5{
+
+.redactor_editor, .redactor_editor:focus, .redactor_editor div, .redactor_editor p, .redactor_editor ul, .redactor_editor ol, .redactor_editor table, .redactor_editor dl, .redactor_editor blockquote, .redactor_editor pre, .redactor_editor h1, .redactor_editor h2, .redactor_editor h3, .redactor_editor h4, .redactor_editor h5 {
     font-family: Samim !important;
     font-size: 12px !important;
 }
